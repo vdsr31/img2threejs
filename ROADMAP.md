@@ -104,7 +104,7 @@ hidden-region confidence before authoring geometry. It defaults patterned finish
 surfaces to a de-lit reference projection, rather than presenting a procedural approximation as an
 exact match.
 
-The initial family route covers supported knives and the Glock-18 with dedicated component contracts.
+The current family route covers supported knives only, with the weapon-v1.4 component contract. A Glock-18 profile is dormant documentation, not an admitted route.
 Review now combines fixed and orbit renders with family, finish, projection, critical-detail,
 geometry-integrity, and component-coverage gates. The v1.4.1 hardening update also requires
 map-stripped blockout evidence and ordered pass credit, so a fused or incomplete assembly cannot pass

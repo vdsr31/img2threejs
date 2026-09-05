@@ -1,9 +1,9 @@
 reate a high-fidelity procedural Three.js 3D reconstruction of:
 
-      ★ Glock-18 | Ghost Protocol
+      Dormant profile — unsupported by the current knife-only CS2 route
       Wear condition: Well-Worn
       Item family: weapon
-      Subtype: glock-18
+      Subtype: glock-18 (unsupported)
 
   The goal is maximum observable agreement with the supplied FRONT and BACK reference images, covering:
   - Slide silhouette, frame/grip ergonomics, ejection port, trigger guard, and internal barrel/breech geometry.
@@ -18,7 +18,7 @@ reate a high-fidelity procedural Three.js 3D reconstruction of:
 
   1. Image Validation: Verify front/back alignment, scale consistency, readable resolution, and reject inconsistent/duplicate inputs.
   2. Layered Observation: Isolate visible polymer frame, PBR transmission, visible internal sub-meshes, and wear features. Separate observation from inference.
-  3. Geometry Contract: Reconcile front/back silhouettes using a dedicated glock-18 adapter (never substitute generic pistol models).
+  3. Stop with `unsupported-family`. Do not invoke an adapter or substitute a generic pistol model. This file documents a future profile only; it does not authorize implementation.
   4. Material Contract: Use de-lit reference projection for translucent shell linework and decals. Keep PBR channels (Albedo, Transmission, Roughness, Metalness, Normal, AO) strictly independent.
   5. Evidence Honesty: Mark hidden internal geometry with per-region confidence scores. Return `request-input` if crucial features are ambiguous.
   6. Exactness Tiers:

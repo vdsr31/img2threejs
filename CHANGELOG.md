@@ -5,6 +5,10 @@ All notable changes to **img2threejs** are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## Unreleased
+
+- Clarified that the installed CS2 workflow is knife-only (`weapon-v1.4`, manifest schema 1, `cs2-knife-v1`, `cs2-knife-review-v1`). The Glock-18 profile remains dormant documentation; no adapter, runtime behavior or test was changed.
+
 ## [1.4.4-beta.2]
 
 ### Added
