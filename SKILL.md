@@ -5,7 +5,7 @@ description: Turn an object or character reference image into a quality-gated, a
 
 # img2threejs
 
-Build a procedural Three.js model that is faithful to the supplied visual evidence. Start each run with `python forge/state.py init --state .img2threejs/state.json`, then run `python forge/next.py --state .img2threejs/state.json <sculpt-spec>` before visual analysis, spec/build/probe, render and review. See `grimoire/build/` for state fields and commands.
+Build a procedural Three.js model that is faithful to the supplied visual evidence. Start each run with `python forge/state.py init --state .img2threejs/state.json --reference <image> [--profile <profile>] [--spec <sculpt-spec>]`, then run `python forge/next.py --state .img2threejs/state.json <sculpt-spec>` before visual analysis, spec/build/probe, render and review. See `grimoire/build/` for state fields and commands.
 
 ## Canonical flow
 
